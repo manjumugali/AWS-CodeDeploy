@@ -1,3 +1,3 @@
 
 #!/bin/bash
-sudo service httpd restart
+sudo service nginx restart
