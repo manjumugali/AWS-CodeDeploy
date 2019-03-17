@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install httpd
+sudo apt-get install nginx.git
