@@ -3,6 +3,11 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+permissions:
+  - object: /var/www/
+    owner: root
+    group: root
+    mode: 777
 hooks:
   BeforeInstall:
     - location: scripts/installapache.sh
