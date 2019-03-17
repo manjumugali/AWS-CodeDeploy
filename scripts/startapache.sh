@@ -1,2 +1,5 @@
 #!/bin/bash
-sudo service httpd start > /var/log/startapache.out 2>&1
+isExistApp = `pgrep httpd`
+if [[ -n  $isExistApp ]]; then
+    service httpd stop        
+fi
