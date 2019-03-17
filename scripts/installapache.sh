@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo apt-get install nginx.git
+sudo apt-get update
+sudo apt-get install nginx
